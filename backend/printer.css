@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-modal {
+    background-color: #7F7F7F;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-modal .modal {
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dotted goldenrod;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.container-modal .modal .cabeca-modal {
+    width: calc(100% - 20px);
+    text-align: right;
+    margin: 5px;
+}
+
+.container-modal .modal .cabeca-modal .close {
+    cursor: pointer;
+    font-size: 25px
+}
+
+.container-modal .modal .corpo-modal {
+    width: calc(100% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-modal  img {
+    width: 65px;
+    height: auto;
+    margin:0px auto 15px; 
+}
+
+.container-modal .corpo-modal h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.corpo-modal div > p {
+    font-size: 16px;
+    padding: 10px;
+    color: #5C5C5C;
+    font-weight: bolder;
+    clear:both;
+}
+
+.corpo-modal div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    color: rgb(0, 0, 0);
+    width: calc(100% - 90px);
+    padding: 0px 30px;
+}
+
+
+
+
